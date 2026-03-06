@@ -26,9 +26,9 @@ author:
   avatar           : "Profile_Picture.jpg"
   name             : "Giorgio Mondini"
   pronouns         : # example: "she/her"  
-  bio              : #"Short biography for the left-hand sidebar"
+  bio              : "Ph.D. Candidate in Finance"
   location         : "Frankfurt am Main, Germany"
-  employer         : "Frankfurt School of Finance & Man."
+  employer         : "Frankfurt School of Finance & <br> Management"
   uri              : # URL
   email            : "g.mondini@fs.de" 
 
@@ -40,7 +40,7 @@ author:
   impactstory      : # URL
   orcid            : 
   semantic         : # URL
-  ssrn             : https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7552213 # URL
+  ssrn             : #https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7552213 # URL
   pubmed           : 
   researchgate     : # URL
   scopus           : # URL
