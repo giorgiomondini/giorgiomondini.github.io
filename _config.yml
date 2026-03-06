@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Giorgio Mondini"
 title_separator          : "-"
 name                     : &name "Giorgio Mondini"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Giorgio Mondini's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://giorgiomondini.github.io/ # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,9 +26,9 @@ author:
   avatar           : "Profile_Picture.jpg"
   name             : "Giorgio Mondini"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : #"Short biography for the left-hand sidebar"
   location         : "Frankfurt am Main, Germany"
-  employer         : "Frankfurt School of Finance & Management"
+  employer         : "Frankfurt School of Finance & Man."
   uri              : # URL
   email            : "g.mondini@fs.de" 
 
@@ -40,7 +40,7 @@ author:
   impactstory      : # URL
   orcid            : 
   semantic         : # URL
-  ssrn             : # URL
+  ssrn             : https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7552213 # URL
   pubmed           : 
   researchgate     : # URL
   scopus           : # URL
