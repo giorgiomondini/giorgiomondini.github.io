@@ -12,8 +12,8 @@ main:
     # url: /cv/
     url: /files/CV_GiorgioMondini.pdf
     
-  - title: "Publications"
-    url: /publications/
+  - title: "Research"
+    url: /research/
 
   - title: "Teaching"
     url: /teaching/    
