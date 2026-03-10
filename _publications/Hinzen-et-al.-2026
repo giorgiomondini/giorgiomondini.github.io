@@ -3,14 +3,13 @@ title: "The Cyclicality of Direct Lending"
 collection: publications
 category: working papers
 permalink: /research/hinzen-et-al-2026/
-excerpt: ''
+excerpt: 'In direct lending, nonbank financial institutions originate bilaterally negotiated loans to risky firms. We document that issuance in this segment of the private credit market is countercyclical relative to issuance in other high-yield corporate credit markets, such as syndicated loans. This countercyclicality is the result of firms substituting across credit markets. Rather than forgo debt financing, firms switch to direct lending when credit conditions in other credit markets tighten. This substitution behavior is especially pronounced among sponsor-backed firms. Contrary to the concern that private credit could amplify credit supply shocks, our results indicate that private credit may dampen the corporate credit cycle. Thus, our findings have important implications for assessing the financial stability ramifications of the rapid growth in private credit.'
 authors: 
   - F. Hinzen 
   - G. Mondini
   - P. Rintamaeki
   - S. Steffen
+{% comment %}
+paperurl: "https://link-to-pdf-or-supplement.com"
+{% endcomment %}
 ---
-**Co-authors:** F. Hinzen, **G.Mondini**, P. Rintamaeki, S. Steffen
-
-## Abstract
-In direct lending, nonbank financial institutions originate bilaterally negotiated loans to risky firms. We document that issuance in this segment of the private credit market is countercyclical relative to issuance in other high-yield corporate credit markets, such as syndicated loans. This countercyclicality is the result of firms substituting across credit markets. Rather than forgo debt financing, firms switch to direct lending when credit conditions in other credit markets tighten. This substitution behavior is especially pronounced among sponsor-backed firms. Contrary to the concern that private credit could amplify credit supply shocks, our results indicate that private credit may dampen the corporate credit cycle. Thus, our findings have important implications for assessing the financial stability ramifications of the rapid growth in private credit.
