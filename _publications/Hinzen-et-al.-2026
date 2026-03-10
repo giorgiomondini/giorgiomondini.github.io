@@ -2,14 +2,15 @@
 title: "The Cyclicality of Direct Lending"
 collection: publications
 category: working papers
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'In direct lending, nonbank financial institutions originate bilaterally negotiated loans to risky firms. We document that issuance in this segment of the private credit market is countercyclical relative to issuance in other high-yield corporate credit markets, such as syndicated loans. This countercyclicality is the result of firms substituting across credit markets. Rather than forgo debt financing, firms switch to direct lending when credit conditions in other credit markets tighten. This substitution behavior is especially pronounced among sponsor-backed firms. Contrary to the concern that private credit could amplify credit supply shocks, our results indicate that private credit may dampen the corporate credit cycle. Thus, our findings have important implications for assessing the financial stability ramifications of the rapid growth in private credit.'
-date: 2026-03-01
-venue: 'Working Paper'
+permalink: /research/hinzen-et-al-2026/
+excerpt: ''
+authors: 
+  - F. Hinzen 
+  - G. Mondini
+  - P. Rintamaeki
+  - S. Steffen
 ---
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+**Co-authors:** F. Hinzen, **G.Mondini**, P. Rintamaeki, S. Steffen
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+## Abstract
+In direct lending, nonbank financial institutions originate bilaterally negotiated loans to risky firms. We document that issuance in this segment of the private credit market is countercyclical relative to issuance in other high-yield corporate credit markets, such as syndicated loans. This countercyclicality is the result of firms substituting across credit markets. Rather than forgo debt financing, firms switch to direct lending when credit conditions in other credit markets tighten. This substitution behavior is especially pronounced among sponsor-backed firms. Contrary to the concern that private credit could amplify credit supply shocks, our results indicate that private credit may dampen the corporate credit cycle. Thus, our findings have important implications for assessing the financial stability ramifications of the rapid growth in private credit.
