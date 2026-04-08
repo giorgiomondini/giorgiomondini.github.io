@@ -163,7 +163,6 @@ analytics:
 # Reading Files
 include:
   - .htaccess
-  - google6f528c7af01d5f9a.html
   - _pages
   - files
 exclude:
