@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Giorgio Mondini"
-title_separator          : "-"
+title                    : "PhD Candidate"
+title_separator          : "|"
 name                     : &name "Giorgio Mondini"
-description              : &description "Giorgio Mondini's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Giorgio Mondini is a PhD student at Frankfurt School of Finance & Management researching asset pricing, macro-finance, and financial intermediation. View my publications and projects here."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://giorgiomondini.github.io/ # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
