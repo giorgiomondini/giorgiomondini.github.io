@@ -41,7 +41,12 @@
       Requires `authors:` as a YAML list in the publication front matter.
     {%- endcomment -%}
     {% if post.authors %}
-      <p class="publication-authors"><strong>Co-authors:</strong> {{ post.authors | join: ", " }}</p>
+      <p class="publication-authors">
+      with 
+      {% for author in post.authors %}
+        {{ author }}{% unless forloop.last %}, {% endunless %}{% if forloop.index == post.authors.size | minus: 1 %}and {% endif %}
+      {% endfor %}
+      </p>
     {% endif %}
     
     {% if post.read_time %}
