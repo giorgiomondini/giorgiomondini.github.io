@@ -67,6 +67,12 @@
       <h4 class="publication-abstract-heading">Abstract</h4>
       <p class="archive__item-excerpt" itemprop="description">{{ preview }}</p>
     {% endif %}
+
+    {% if post.media_coverage %}
+      <p style="margin-top: 0.5em;">
+        <strong>Media Coverage:</strong> {{ post.media_coverage }}
+      </p>
+    {% endif %}
     
     {% comment %}
       {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
