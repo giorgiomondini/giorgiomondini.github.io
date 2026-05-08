@@ -44,9 +44,11 @@
       <p class="publication-authors">
       with 
         {% for author in post.authors %}
-          {{ author }}{% if post.authors.size > 2 and forloop.index < post.authors.size %}, {% endif %}
-          {% if post.authors.size == 2 and forloop.first %} {% endif %}
-          {% if forloop.index == post.authors.size | minus: 1 %}and {% endif %}
+          {% if forloop.index == post.authors.size and post.authors.size > 1 %}
+          and {{ author }}
+          {% else %}
+          {{ author }}{% if post.authors.size > 2 and forloop.index < post.authors.size | minus: 1 %}, {% elsif post.authors.size > 2 and forloop.index == post.authors.size | minus: 1 %}, {% elsif post.authors.size == 2 and forloop.first %} {% endif %}
+          {% endif %}
         {% endfor %}
       </p>
     {% endif %}
