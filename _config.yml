@@ -87,7 +87,9 @@ publication_category:
   books:
     title: 'Books'
   working papers:
-    title: 'Working Papers'    
+    title: 'Working Papers'
+  policy papers:
+    title: 'Policy Papers'
   conferences:
     title: 'Conference Papers'
 
