@@ -1,1 +1,12 @@
-
+---
+title: "Global stablecoins in 2030: a European perspective"
+collection: publications
+category: policy papers
+permalink: /research/bindseil-et-al-2026/
+excerpt: 'This paper examines the implications of global stablecoin adoption for the monetary and financial architecture, with particular emphasis on the euro area. It employs a flow-of-funds framework tracing sectoral and cross-border balance-sheet adjustments as a function of funding sources and reserve asset composition, operationalised through a calibrated three-region model (United States, euro area, rest of the world), embedding alternative stablecoin growth scenarios for USD- and EUR-denominated stablecoins through 2030. The analysis finds that, even under high stablecoin growth assumptions, aggregate effects on the euro area financial system would likely remain manageable. The principal structural effect on banks is the conversion of stable, inexpensive retail deposits into more volatile and costly wholesale funding. Effects on securities markets, while meaningful in terms of demand reallocation toward short-term sovereign instruments, are likewise assessed as manageable. Stablecoin-specific financial stability risks, though real, are not fundamentally novel and are amenable to standard regulatory mitigation tools. Stablecoins are best understood as part of the continuing evolution of monetary architecture, the significance of which will depend on the efficiency gains they ultimately deliver and the adequacy of the regulatory environment. While financial stability and monetary architecture risks appear manageable, other important societal issues, such as their significant use for illicit payments and regulatory arbitrage, deserve more scrutiny.'
+authors:
+  - <a href="" target="_blank">U. Bindseil</a>
+  - <a href="https://www.esm.europa.eu/profile/romain-meuwissen" target="_blank">R. Meuwissen</a>
+  - <a href="https://www.esm.europa.eu/profile/martin-rohar" target="_blank">M. Rohár</a>
+paperurl: 'https://www.esm.europa.eu/publications/global-stablecoins-2030-european-perspective'
+---
