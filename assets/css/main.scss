@@ -157,7 +157,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Iowan Old Style", "Source Serif 4", Georgia, "Times New Roman", serif;
 }
 
-:root { --page-width: 960px; }
+:root { --page-width: 1040px; }
 
 .masthead__inner-wrap,
 #main {
@@ -193,4 +193,21 @@ h1, h2, h3, h4, h5, h6,
 .author__bio,
 .author__urls li {
   font-family: inherit;
+}
+
+:root { --page-bg: #faf9f7; }
+
+html,
+body,
+#main,
+.initial-content,
+.page,
+.archive,
+.masthead,
+.greedy-nav,
+.greedy-nav .visible-links,
+.greedy-nav .hidden-links,
+.page__footer,
+.author__avatar img {
+  background-color: var(--page-bg);
 }
