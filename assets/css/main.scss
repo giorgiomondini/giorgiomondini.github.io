@@ -157,7 +157,12 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Iowan Old Style", "Source Serif 4", Georgia, "Times New Roman", serif;
 }
 
-:root { --page-width: 1040px; }
+/* ---------- Layout: centered column ---------- */
+:root {
+  --page-width: 1040px;
+  --page-bg: #faf9f7;
+  --accent: #8a2432;
+}
 
 .masthead__inner-wrap,
 #main {
@@ -185,29 +190,75 @@ h1, h2, h3, h4, h5, h6,
   float: none;
 }
 
+/* ---------- Sidebar font ---------- */
 .sidebar,
 .sidebar h3,
+.sidebar p,
 .sidebar li,
 .sidebar a,
+.author__content,
 .author__name,
 .author__bio,
-.author__urls li {
-  font-family: inherit;
+.author__urls li,
+.author__urls a {
+  font-family: "Iowan Old Style", "Source Serif 4", Georgia, "Times New Roman", serif !important;
 }
 
-:root { --page-bg: #faf9f7; }
-
+/* ---------- Background everywhere ---------- */
 html,
 body,
 #main,
 .initial-content,
 .page,
 .archive,
-.masthead,
-.greedy-nav,
-.greedy-nav .visible-links,
-.greedy-nav .hidden-links,
 .page__footer,
+.sidebar,
 .author__avatar img {
   background-color: var(--page-bg);
+}
+
+/* ---------- Navigation: no white boxes ---------- */
+.masthead,
+.masthead__inner-wrap,
+.greedy-nav,
+.greedy-nav ul,
+.greedy-nav li,
+.greedy-nav a,
+.greedy-nav .visible-links,
+.greedy-nav .visible-links li,
+.greedy-nav .visible-links a,
+.greedy-nav .hidden-links {
+  background: var(--page-bg) !important;
+}
+
+/* ---------- Navigation: title left, links right ---------- */
+.greedy-nav {
+  display: flex;
+  align-items: center;
+}
+.greedy-nav .visible-links {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  margin: 0;
+}
+.greedy-nav .visible-links li {
+  float: none !important;
+}
+.greedy-nav .visible-links li:first-child {
+  margin-right: auto;            /* keeps "PhD Candidate" on the left */
+}
+
+/* ---------- Navigation: small caps links ---------- */
+.greedy-nav .visible-links li:not(:first-child) a {
+  font-size: 0.78em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* ---------- Navigation: burgundy hover and active tab ---------- */
+.greedy-nav .visible-links a:hover,
+.greedy-nav .visible-links a.active,
+.greedy-nav .visible-links li.active a {
+  color: var(--accent);
 }
