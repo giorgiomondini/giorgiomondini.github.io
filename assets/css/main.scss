@@ -41,8 +41,6 @@
     "vendor/font-awesome/brands"
 ;
 
-paper-accent: #8a2432;
-
 .paper {
   margin: 0 0 1.8em;
 }
@@ -82,7 +80,7 @@ paper-accent: #8a2432;
   font-weight: 600;
   letter-spacing: 0.09em;
   text-transform: uppercase;
-  color: $paper-accent;
+  color: #8a2432;
   text-decoration: none;
   background: none;
   border: 0;
@@ -112,7 +110,7 @@ paper-accent: #8a2432;
   color: #777;
 
 .paper-media a {
-  color: $paper-accent;
+  color: #8a2432;
   text-decoration: none;
 }
 .paper-media a:hover {
