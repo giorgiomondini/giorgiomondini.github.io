@@ -187,23 +187,31 @@ h1, h2, h3, h4, h5, h6,
     display: flex;
     align-items: flex-start;
   }
+
   #main .sidebar {
     float: none;
-    flex: 0 0 230px;
     width: 230px;
+    background: transparent !important;
   }
-  #main .page,
-  #main .archive {
-    float: none;
-    flex: 1;
-    min-width: 0;
+
+  /* Pages that come after a sidebar (About, CV): leave room for the profile panel */
+  #main .sidebar ~ .page,
+  #main .sidebar ~ .archive {
+    float: none !important;
     width: auto !important;
-    padding-left: 2em;
-    padding-right: 0;
+    min-width: 0;
+    flex: 1;
+    padding-left: 270px !important;   /* sidebar width (230px) + 40px gap */
+    padding-right: 0 !important;
   }
-  /* pages without a sidebar (Research) start at the left edge */
-  #main .archive:first-child {
+
+  /* Pages without a sidebar (Research): start at the left edge */
+  #main > .page:first-child,
+  #main > .archive:first-child {
+    float: none;
+    width: 100%;
     padding-left: 0;
+    padding-right: 0;
   }
 }
 
