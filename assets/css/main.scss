@@ -139,3 +139,20 @@ h2.paper-section::after {
   flex: 1;
   border-top: 1px solid #ddd;
 }
+
+body,
+button,
+input,
+select,
+textarea,
+h1, h2, h3, h4, h5, h6,
+.masthead,
+.greedy-nav,
+.greedy-nav a,
+.page__title,
+.archive__item-title,
+.sidebar,
+.author__name,
+.author__bio {
+  font-family: "Iowan Old Style", "Source Serif 4", Georgia, "Times New Roman", serif;
+}
