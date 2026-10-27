@@ -41,6 +41,8 @@
     "vendor/font-awesome/brands"
 ;
 
+paper-accent: #8a2432;
+
 .paper {
   margin: 0 0 1.8em;
 }
@@ -80,7 +82,7 @@
   font-weight: 600;
   letter-spacing: 0.09em;
   text-transform: uppercase;
-  color: #8a2432;
+  color: $paper-accent;
   text-decoration: none;
   background: none;
   border: 0;
@@ -88,7 +90,7 @@
   cursor: pointer;
 }
 .paper-links a:hover,
-.paper-toggle:hover { text-decoration: underline; }
+.paper-toggle:hover {text-decoration: underline; }
 
 /* ▸ turns into ▾ when open */
 .paper-toggle::before { content: "▸ "; }
@@ -108,4 +110,12 @@
   margin-top: 0.5em;
   font-size: 0.82em;
   color: #777;
+
+.paper-media a {
+  color: $paper-accent;
+  text-decoration: none;
+}
+.paper-media a:hover {
+  text-decoration: underline;
+}
 }
