@@ -181,13 +181,30 @@ h1, h2, h3, h4, h5, h6,
   padding-right: 0;
 }
 
-#main .page {
-  padding-right: 0;
-}
-#main .page .page__inner-wrap,
-#main .page .page__content {
-  width: 100%;
-  float: none;
+/* ---------- Sidebar + content side by side ---------- */
+@media (min-width: 1024px) {
+  #main {
+    display: flex;
+    align-items: flex-start;
+  }
+  #main .sidebar {
+    float: none;
+    flex: 0 0 230px;
+    width: 230px;
+  }
+  #main .page,
+  #main .archive {
+    float: none;
+    flex: 1;
+    min-width: 0;
+    width: auto !important;
+    padding-left: 2em;
+    padding-right: 0;
+  }
+  /* pages without a sidebar (Research) start at the left edge */
+  #main .archive:first-child {
+    padding-left: 0;
+  }
 }
 
 /* ---------- Sidebar font ---------- */
@@ -233,23 +250,23 @@ body,
 
 /* ---------- Navigation: title left, links right ---------- */
 .greedy-nav {
-  display: flex;
-  align-items: center;
+  position: relative;
 }
 .greedy-nav .visible-links {
-  display: flex;
-  flex: 1;
-  justify-content: flex-end;
-  margin: 0;
-}
-.greedy-nav .visible-links li {
-  float: none !important;
+  float: right;                 /* shrinks to the width of the links */
 }
 .greedy-nav .visible-links li:first-child {
-  margin-right: auto;            /* keeps "PhD Candidate" on the left */
+  position: absolute;           /* "PhD Candidate" stays on the left */
+  left: 0;
+  margin: 0;
 }
 
-/* ---------- Navigation: small caps links ---------- */
+/* hamburger button (only appears on narrow screens) */
+.greedy-nav button {
+  background: var(--page-bg) !important;
+}
+
+/* small caps links */
 .greedy-nav .visible-links li:not(:first-child) a {
   font-size: 0.78em;
   letter-spacing: 0.12em;
