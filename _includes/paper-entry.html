@@ -1,0 +1,32 @@
+{% assign n = post.authors | size %}
+<div class="paper">
+
+  <div class="paper-head">
+    <span class="paper-title">{{ post.title }}</span>{% if n > 0 %}<span class="paper-authors">, with
+      {% for a in post.authors %}{{ a }}{% if forloop.rindex == 2 %}{% if n == 2 %} and {% else %}, and {% endif %}{% elsif forloop.rindex > 2 %}, {% endif %}{% endfor %}.</span>{% endif %}
+  </div>
+
+  {% if post.journal %}
+    <div class="paper-journal">{{ post.journal }}</div>
+  {% endif %}
+
+  <div class="paper-links">
+    {% if post.journalurl %}<a href="{{ post.journalurl }}" target="_blank">Journal</a>{% endif %}
+    {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank">SSRN</a>{% endif %}
+    {% if post.pdf %}<a href="{{ post.pdf | relative_url }}" target="_blank">PDF</a>{% endif %}
+    {% if post.slides %}<a href="{{ post.slides | relative_url }}" target="_blank">Slides</a>{% endif %}
+    {% if post.excerpt != blank %}
+      <button type="button" class="paper-toggle" aria-expanded="false"
+        onclick="var a=this.closest('.paper').querySelector('.paper-abstract');var show=a.hidden;a.hidden=!show;this.setAttribute('aria-expanded',show);">Abstract</button>
+    {% endif %}
+  </div>
+
+  {% if post.excerpt != blank %}
+    <div class="paper-abstract" hidden>{{ post.excerpt | markdownify }}</div>
+  {% endif %}
+
+  {% if post.media_coverage %}
+    <div class="paper-media">Media: {{ post.media_coverage }}</div>
+  {% endif %}
+
+</div>
