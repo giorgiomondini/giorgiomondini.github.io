@@ -287,3 +287,13 @@ body,
 .greedy-nav .visible-links li.active a {
   color: var(--accent);
 }
+
+/* Burgundy link, underline only on hover */
+a.burgundy-link,
+a.burgundy-link:visited {
+  color: #8a2432;
+  text-decoration: none;
+}
+a.burgundy-link:hover {
+  text-decoration: underline;
+}
