@@ -40,3 +40,72 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+.paper {
+  margin: 0 0 1.8em;
+}
+
+.paper-title {
+  font-weight: 700;
+  font-size: 1.05em;
+  color: #222;
+}
+
+.paper-authors {
+  color: #666;
+}
+.paper-authors a {
+  color: inherit;
+  text-decoration: none;
+}
+.paper-authors a:hover { text-decoration: underline; }
+
+.paper-journal {
+  font-style: italic;
+  margin-top: 0.15em;
+  color: #333;
+}
+
+/* Small-caps style link row */
+.paper-links {
+  margin-top: 0.45em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em 1.3em;
+}
+.paper-links a,
+.paper-toggle {
+  font-family: inherit;
+  font-size: 0.72em;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--global-link-color, #7a1f2b);
+  text-decoration: none;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.paper-links a:hover,
+.paper-toggle:hover { text-decoration: underline; }
+
+/* ▸ turns into ▾ when open */
+.paper-toggle::before { content: "▸ "; }
+.paper-toggle[aria-expanded="true"]::before { content: "▾ "; }
+
+.paper-abstract {
+  margin-top: 0.6em;
+  font-size: 0.92em;
+  line-height: 1.6;
+  text-align: justify;
+  color: #444;
+}
+.paper-abstract[hidden] { display: none; }
+.paper-abstract p { margin: 0; }
+
+.paper-media {
+  margin-top: 0.5em;
+  font-size: 0.82em;
+  color: #777;
+}
