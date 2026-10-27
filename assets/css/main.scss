@@ -117,7 +117,9 @@
   text-decoration: underline;
 }
 
-.page__content h2.paper-section {
+.archive h2.paper-section,
+.page__content h2.paper-section,
+h2.paper-section {
   display: flex;
   align-items: center;
   gap: 1em;
@@ -130,9 +132,10 @@
   text-transform: uppercase;
   color: #555;
 }
-.page__content h2.paper-section::after {
+.archive h2.paper-section::after,
+.page__content h2.paper-section::after,
+h2.paper-section::after {
   content: "";
   flex: 1;
   border-top: 1px solid #ddd;
 }
-
